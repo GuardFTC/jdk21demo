@@ -8,7 +8,7 @@ import java.util.concurrent.StructuredTaskScope;
 import java.util.function.Supplier;
 
 /**
- * @author: 冯铁城 [fengtiecheng@pwrd.com]
+ * @author: 冯铁城 [17615007230@163.com]
  * @date: 2025-05-29 15:03:39
  * @describe: ScopedValue测试类
  */

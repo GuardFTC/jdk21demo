@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author: 冯铁城 [fengtiecheng@pwrd.com]
+ * @author: 冯铁城 [17615007230@163.com]
  * @date: 2025-05-28 19:41:05
  * @describe: 虚拟线程池测试相关
  */

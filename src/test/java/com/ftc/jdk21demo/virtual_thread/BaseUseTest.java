@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author: 冯铁城 [fengtiecheng@pwrd.com]
+ * @author: 冯铁城 [17615007230@163.com]
  * @date: 2025-05-28 17:42:46
  * @describe: 虚拟线程基础使用测试
  */

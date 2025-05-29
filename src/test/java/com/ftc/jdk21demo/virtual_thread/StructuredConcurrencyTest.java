@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Supplier;
 
 /**
- * @author: 冯铁城 [fengtiecheng@pwrd.com]
+ * @author: 冯铁城 [17615007230@163.com]
  * @date: 2025-05-28 20:11:18
  * @describe: 结构化并发测试
  */
