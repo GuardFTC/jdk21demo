@@ -22,13 +22,19 @@ public class BaseUseTest {
             System.out.println(Thread.currentThread().getName() + ":hello world!");
         }).join();
 
-        //2.延迟启动虚拟线程
+        //2.直接启动虚拟线程
+        Thread.ofVirtual().name("hello virtual thread").start(() -> {
+            System.out.println("当前线程是否为虚拟线程:" + Thread.currentThread().isVirtual());
+            System.out.println(Thread.currentThread().getName() + ":hello world!");
+        });
+
+        //3.延迟启动虚拟线程
         Thread virtualThread = Thread.ofVirtual().name("hello virtual thread").unstarted(() -> {
             System.out.println("当前线程是否为虚拟线程:" + Thread.currentThread().isVirtual());
             System.out.println(Thread.currentThread().getName() + ":hello world!");
         });
 
-        //3.等待虚拟线程结束
+        //4.等待虚拟线程结束
         virtualThread.start();
         virtualThread.join();
     }
